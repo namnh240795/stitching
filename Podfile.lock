@@ -1,0 +1,16 @@
+PODS:
+  - Opencv2-ios-framework (4.5.5)
+
+DEPENDENCIES:
+  - Opencv2-ios-framework
+
+SPEC REPOS:
+  trunk:
+    - Opencv2-ios-framework
+
+SPEC CHECKSUMS:
+  Opencv2-ios-framework: 340adb70c1e11b289a2da293e590f2ce07dc6a03
+
+PODFILE CHECKSUM: 8b99aa6cb7f92441f949a2e7b2baf1f0f1bbe6fd
+
+COCOAPODS: 1.11.3

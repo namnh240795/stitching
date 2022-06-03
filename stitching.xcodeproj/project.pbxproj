@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E2755D2849B7180013DEBF /* stitchingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755C2849B7180013DEBF /* stitchingApp.swift */; };
+		52E2755F2849B7180013DEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755E2849B7180013DEBF /* ContentView.swift */; };
+		52E275612849B71A0013DEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E275602849B71A0013DEBF /* Assets.xcassets */; };
+		52E275642849B71A0013DEBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E275632849B71A0013DEBF /* Preview Assets.xcassets */; };
+		52E275762849BE130013DEBF /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2756B2849BE110013DEBF /* PhotoAsset.swift */; };
+		52E275772849BE130013DEBF /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2756C2849BE120013DEBF /* PhotoItemView.swift */; };
+		52E275782849BE130013DEBF /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2756D2849BE120013DEBF /* PhotoCollectionView.swift */; };
+		52E275792849BE130013DEBF /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2756E2849BE120013DEBF /* PhotoLibrary.swift */; };
+		52E2757A2849BE130013DEBF /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2756F2849BE120013DEBF /* PhotoView.swift */; };
+		52E2757B2849BE130013DEBF /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275702849BE120013DEBF /* DataModel.swift */; };
+		52E2757C2849BE130013DEBF /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275712849BE120013DEBF /* CameraView.swift */; };
+		52E2757D2849BE130013DEBF /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275722849BE120013DEBF /* PhotoCollection.swift */; };
+		52E2757E2849BE130013DEBF /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275732849BE120013DEBF /* ThumbnailView.swift */; };
+		52E2757F2849BE130013DEBF /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275742849BE120013DEBF /* ViewfinderView.swift */; };
+		52E275802849BE130013DEBF /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275752849BE130013DEBF /* PhotoAssetCollection.swift */; };
+		52E275832849BE200013DEBF /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275812849BE200013DEBF /* CachedImageManager.swift */; };
+		52E275842849BE200013DEBF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275822849BE200013DEBF /* Camera.swift */; };
+		AFD8FDE493202CDDD3FA59A8 /* Pods_stitching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A320FEDC1248AA74E5614B07 /* Pods_stitching.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		158034285556ED1202AFA4B8 /* Pods-stitching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stitching.debug.xcconfig"; path = "Target Support Files/Pods-stitching/Pods-stitching.debug.xcconfig"; sourceTree = "<group>"; };
+		52E275592849B7180013DEBF /* stitching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stitching.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E2755C2849B7180013DEBF /* stitchingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stitchingApp.swift; sourceTree = "<group>"; };
+		52E2755E2849B7180013DEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52E275602849B71A0013DEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52E275632849B71A0013DEBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52E2756A2849BC170013DEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52E2756B2849BE110013DEBF /* PhotoAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		52E2756C2849BE120013DEBF /* PhotoItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		52E2756D2849BE120013DEBF /* PhotoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		52E2756E2849BE120013DEBF /* PhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		52E2756F2849BE120013DEBF /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		52E275702849BE120013DEBF /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		52E275712849BE120013DEBF /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		52E275722849BE120013DEBF /* PhotoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		52E275732849BE120013DEBF /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		52E275742849BE120013DEBF /* ViewfinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		52E275752849BE130013DEBF /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		52E275812849BE200013DEBF /* CachedImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		52E275822849BE200013DEBF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		9CB9A785BA9A9D9A144307FD /* Pods-stitching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stitching.release.xcconfig"; path = "Target Support Files/Pods-stitching/Pods-stitching.release.xcconfig"; sourceTree = "<group>"; };
+		A320FEDC1248AA74E5614B07 /* Pods_stitching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stitching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E275562849B7180013DEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD8FDE493202CDDD3FA59A8 /* Pods_stitching.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C5A31B7B884C6F9B96F18EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A320FEDC1248AA74E5614B07 /* Pods_stitching.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45F557AA75201FF65A387E9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				158034285556ED1202AFA4B8 /* Pods-stitching.debug.xcconfig */,
+				9CB9A785BA9A9D9A144307FD /* Pods-stitching.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52E275502849B7180013DEBF = {
+			isa = PBXGroup;
+			children = (
+				52E2755B2849B7180013DEBF /* stitching */,
+				52E2755A2849B7180013DEBF /* Products */,
+				45F557AA75201FF65A387E9D /* Pods */,
+				2C5A31B7B884C6F9B96F18EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52E2755A2849B7180013DEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E275592849B7180013DEBF /* stitching.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E2755B2849B7180013DEBF /* stitching */ = {
+			isa = PBXGroup;
+			children = (
+				52E275812849BE200013DEBF /* CachedImageManager.swift */,
+				52E275822849BE200013DEBF /* Camera.swift */,
+				52E275712849BE120013DEBF /* CameraView.swift */,
+				52E275702849BE120013DEBF /* DataModel.swift */,
+				52E2756B2849BE110013DEBF /* PhotoAsset.swift */,
+				52E275752849BE130013DEBF /* PhotoAssetCollection.swift */,
+				52E275722849BE120013DEBF /* PhotoCollection.swift */,
+				52E2756D2849BE120013DEBF /* PhotoCollectionView.swift */,
+				52E2756C2849BE120013DEBF /* PhotoItemView.swift */,
+				52E2756E2849BE120013DEBF /* PhotoLibrary.swift */,
+				52E2756F2849BE120013DEBF /* PhotoView.swift */,
+				52E275732849BE120013DEBF /* ThumbnailView.swift */,
+				52E275742849BE120013DEBF /* ViewfinderView.swift */,
+				52E2756A2849BC170013DEBF /* Info.plist */,
+				52E2755C2849B7180013DEBF /* stitchingApp.swift */,
+				52E2755E2849B7180013DEBF /* ContentView.swift */,
+				52E275602849B71A0013DEBF /* Assets.xcassets */,
+				52E275622849B71A0013DEBF /* Preview Content */,
+			);
+			path = stitching;
+			sourceTree = "<group>";
+		};
+		52E275622849B71A0013DEBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52E275632849B71A0013DEBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E275582849B7180013DEBF /* stitching */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E275672849B71A0013DEBF /* Build configuration list for PBXNativeTarget "stitching" */;
+			buildPhases = (
+				52E96F2DB4A9129873999242 /* [CP] Check Pods Manifest.lock */,
+				52E275552849B7180013DEBF /* Sources */,
+				52E275562849B7180013DEBF /* Frameworks */,
+				52E275572849B7180013DEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stitching;
+			productName = stitching;
+			productReference = 52E275592849B7180013DEBF /* stitching.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E275512849B7180013DEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					52E275582849B7180013DEBF = {
+						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = 52E275542849B7180013DEBF /* Build configuration list for PBXProject "stitching" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E275502849B7180013DEBF;
+			productRefGroup = 52E2755A2849B7180013DEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E275582849B7180013DEBF /* stitching */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E275572849B7180013DEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E275642849B71A0013DEBF /* Preview Assets.xcassets in Resources */,
+				52E275612849B71A0013DEBF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52E96F2DB4A9129873999242 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stitching-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E275552849B7180013DEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E275802849BE130013DEBF /* PhotoAssetCollection.swift in Sources */,
+				52E275762849BE130013DEBF /* PhotoAsset.swift in Sources */,
+				52E2757F2849BE130013DEBF /* ViewfinderView.swift in Sources */,
+				52E275782849BE130013DEBF /* PhotoCollectionView.swift in Sources */,
+				52E2757A2849BE130013DEBF /* PhotoView.swift in Sources */,
+				52E2757C2849BE130013DEBF /* CameraView.swift in Sources */,
+				52E2755F2849B7180013DEBF /* ContentView.swift in Sources */,
+				52E275772849BE130013DEBF /* PhotoItemView.swift in Sources */,
+				52E2757D2849BE130013DEBF /* PhotoCollection.swift in Sources */,
+				52E2757B2849BE130013DEBF /* DataModel.swift in Sources */,
+				52E275792849BE130013DEBF /* PhotoLibrary.swift in Sources */,
+				52E275842849BE200013DEBF /* Camera.swift in Sources */,
+				52E2757E2849BE130013DEBF /* ThumbnailView.swift in Sources */,
+				52E2755D2849B7180013DEBF /* stitchingApp.swift in Sources */,
+				52E275832849BE200013DEBF /* CachedImageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52E275652849B71A0013DEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52E275662849B71A0013DEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E275682849B71A0013DEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 158034285556ED1202AFA4B8 /* Pods-stitching.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stitching/Preview Content\"";
+				DEVELOPMENT_TEAM = EUKQS3744F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stitching/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo would help you upload images for changing avatar and verification purpose.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agiletech.stitching;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "stitching/stitching-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E275692849B71A0013DEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CB9A785BA9A9D9A144307FD /* Pods-stitching.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stitching/Preview Content\"";
+				DEVELOPMENT_TEAM = EUKQS3744F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = stitching/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo would help you upload images for changing avatar and verification purpose.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.agiletech.stitching;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "stitching/stitching-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E275542849B7180013DEBF /* Build configuration list for PBXProject "stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E275652849B71A0013DEBF /* Debug */,
+				52E275662849B71A0013DEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E275672849B71A0013DEBF /* Build configuration list for PBXNativeTarget "stitching" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E275682849B71A0013DEBF /* Debug */,
+				52E275692849B71A0013DEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E275512849B7180013DEBF /* Project object */;
+}
