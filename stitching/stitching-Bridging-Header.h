@@ -10,9 +10,10 @@
 #define Stitching_h
 
 #import <Foundation/Foundation.h>
+#import "OpenCVWrapper.h"
 
-@interface StitchingWrapper : NSObject
-- (NSString *) sayHello;
-@end
+//@interface StitchingWrapper : NSObject
+//- (NSString *) sayHello;
+//@end
 
 #endif /* Stitching_h */

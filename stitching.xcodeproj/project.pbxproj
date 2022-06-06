@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523B13EF284DA9830081A2DA /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */; };
+		523B13F2284DAA870081A2DA /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 523B13F1284DAA870081A2DA /* stitching.cpp */; };
 		52E2755D2849B7180013DEBF /* stitchingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755C2849B7180013DEBF /* stitchingApp.swift */; };
 		52E2755F2849B7180013DEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755E2849B7180013DEBF /* ContentView.swift */; };
 		52E275612849B71A0013DEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E275602849B71A0013DEBF /* Assets.xcassets */; };
@@ -29,6 +31,11 @@
 
 /* Begin PBXFileReference section */
 		158034285556ED1202AFA4B8 /* Pods-stitching.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stitching.debug.xcconfig"; path = "Target Support Files/Pods-stitching/Pods-stitching.debug.xcconfig"; sourceTree = "<group>"; };
+		523B13ED284DA9010081A2DA /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		523B13F0284DAA510081A2DA /* stitching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stitching.h; sourceTree = "<group>"; };
+		523B13F1284DAA870081A2DA /* stitching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stitching.cpp; sourceTree = "<group>"; };
+		52DC957B284DA03800C3C0AD /* stitching-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "stitching-Bridging-Header.h"; sourceTree = "<group>"; };
 		52E275592849B7180013DEBF /* stitching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stitching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E2755C2849B7180013DEBF /* stitchingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stitchingApp.swift; sourceTree = "<group>"; };
 		52E2755E2849B7180013DEBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +109,7 @@
 		52E2755B2849B7180013DEBF /* stitching */ = {
 			isa = PBXGroup;
 			children = (
+				52DC957B284DA03800C3C0AD /* stitching-Bridging-Header.h */,
 				52E275812849BE200013DEBF /* CachedImageManager.swift */,
 				52E275822849BE200013DEBF /* Camera.swift */,
 				52E275712849BE120013DEBF /* CameraView.swift */,
@@ -120,6 +128,10 @@
 				52E2755E2849B7180013DEBF /* ContentView.swift */,
 				52E275602849B71A0013DEBF /* Assets.xcassets */,
 				52E275622849B71A0013DEBF /* Preview Content */,
+				523B13ED284DA9010081A2DA /* OpenCVWrapper.h */,
+				523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */,
+				523B13F0284DAA510081A2DA /* stitching.h */,
+				523B13F1284DAA870081A2DA /* stitching.cpp */,
 			);
 			path = stitching;
 			sourceTree = "<group>";
@@ -234,7 +246,9 @@
 				52E2757F2849BE130013DEBF /* ViewfinderView.swift in Sources */,
 				52E275782849BE130013DEBF /* PhotoCollectionView.swift in Sources */,
 				52E2757A2849BE130013DEBF /* PhotoView.swift in Sources */,
+				523B13F2284DAA870081A2DA /* stitching.cpp in Sources */,
 				52E2757C2849BE130013DEBF /* CameraView.swift in Sources */,
+				523B13EF284DA9830081A2DA /* OpenCVWrapper.mm in Sources */,
 				52E2755F2849B7180013DEBF /* ContentView.swift in Sources */,
 				52E275772849BE130013DEBF /* PhotoItemView.swift in Sources */,
 				52E2757D2849BE130013DEBF /* PhotoCollection.swift in Sources */,

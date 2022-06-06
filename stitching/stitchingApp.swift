@@ -9,6 +9,7 @@ struct stitchingApp: App {
     
     var body: some Scene {
         WindowGroup {
+            Text(OpenCVWrapper().sayHello())
             CameraView()
         }
     }
