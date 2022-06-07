@@ -4,7 +4,7 @@
 target 'stitching' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'Opencv2-ios-framework'
+  pod 'OpenCV-Dynamic-Framework'
   # Pods for stitching
 
 end

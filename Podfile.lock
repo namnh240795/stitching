@@ -1,16 +1,16 @@
 PODS:
-  - Opencv2-ios-framework (4.5.5)
+  - OpenCV-Dynamic-Framework (4.5.5)
 
 DEPENDENCIES:
-  - Opencv2-ios-framework
+  - OpenCV-Dynamic-Framework
 
 SPEC REPOS:
   trunk:
-    - Opencv2-ios-framework
+    - OpenCV-Dynamic-Framework
 
 SPEC CHECKSUMS:
-  Opencv2-ios-framework: 340adb70c1e11b289a2da293e590f2ce07dc6a03
+  OpenCV-Dynamic-Framework: 057e8504d1847cc8b24a550f25987bfec885177f
 
-PODFILE CHECKSUM: 8b99aa6cb7f92441f949a2e7b2baf1f0f1bbe6fd
+PODFILE CHECKSUM: 85663ce4442731bc5dc2ca3ba5d352cf34471c9a
 
 COCOAPODS: 1.11.3

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		523B13EF284DA9830081A2DA /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */; };
 		523B13F2284DAA870081A2DA /* stitching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 523B13F1284DAA870081A2DA /* stitching.cpp */; };
+		523B13F7284DEAE50081A2DA /* UIImageRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523B13F6284DEAE50081A2DA /* UIImageRotate.m */; };
+		523B13FB284DFDB60081A2DA /* UIImageOpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 523B13FA284DFDB60081A2DA /* UIImageOpenCV.mm */; };
 		52E2755D2849B7180013DEBF /* stitchingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755C2849B7180013DEBF /* stitchingApp.swift */; };
 		52E2755F2849B7180013DEBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E2755E2849B7180013DEBF /* ContentView.swift */; };
 		52E275612849B71A0013DEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E275602849B71A0013DEBF /* Assets.xcassets */; };
@@ -26,6 +28,14 @@
 		52E275802849BE130013DEBF /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275752849BE130013DEBF /* PhotoAssetCollection.swift */; };
 		52E275832849BE200013DEBF /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275812849BE200013DEBF /* CachedImageManager.swift */; };
 		52E275842849BE200013DEBF /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E275822849BE200013DEBF /* Camera.swift */; };
+		52F9199F284EFC590030EFAB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F9198F284EFC580030EFAB /* 5.jpg */; };
+		52F919A1284EFC590030EFAB /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91991284EFC580030EFAB /* 8.jpg */; };
+		52F919A2284EFC590030EFAB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91992284EFC590030EFAB /* 2.jpg */; };
+		52F919A3284EFC590030EFAB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91993284EFC590030EFAB /* 3.jpg */; };
+		52F919A4284EFC590030EFAB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91994284EFC590030EFAB /* 7.jpg */; };
+		52F919A5284EFC590030EFAB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91995284EFC590030EFAB /* 1.jpg */; };
+		52F919A9284EFC590030EFAB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F91999284EFC590030EFAB /* 6.jpg */; };
+		52F919AC284EFC590030EFAB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 52F9199C284EFC590030EFAB /* 4.jpg */; };
 		AFD8FDE493202CDDD3FA59A8 /* Pods_stitching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A320FEDC1248AA74E5614B07 /* Pods_stitching.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +45,10 @@
 		523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
 		523B13F0284DAA510081A2DA /* stitching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stitching.h; sourceTree = "<group>"; };
 		523B13F1284DAA870081A2DA /* stitching.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stitching.cpp; sourceTree = "<group>"; };
+		523B13F5284DEAD10081A2DA /* UIImageRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageRotate.h; sourceTree = "<group>"; };
+		523B13F6284DEAE50081A2DA /* UIImageRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageRotate.m; sourceTree = "<group>"; };
+		523B13F9284DFD6D0081A2DA /* UIImageOpenCV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageOpenCV.h; sourceTree = "<group>"; };
+		523B13FA284DFDB60081A2DA /* UIImageOpenCV.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageOpenCV.mm; sourceTree = "<group>"; };
 		52DC957B284DA03800C3C0AD /* stitching-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "stitching-Bridging-Header.h"; sourceTree = "<group>"; };
 		52E275592849B7180013DEBF /* stitching.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stitching.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E2755C2849B7180013DEBF /* stitchingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stitchingApp.swift; sourceTree = "<group>"; };
@@ -55,6 +69,14 @@
 		52E275752849BE130013DEBF /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
 		52E275812849BE200013DEBF /* CachedImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
 		52E275822849BE200013DEBF /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		52F9198F284EFC580030EFAB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		52F91991284EFC580030EFAB /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		52F91992284EFC590030EFAB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		52F91993284EFC590030EFAB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		52F91994284EFC590030EFAB /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		52F91995284EFC590030EFAB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		52F91999284EFC590030EFAB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		52F9199C284EFC590030EFAB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		9CB9A785BA9A9D9A144307FD /* Pods-stitching.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stitching.release.xcconfig"; path = "Target Support Files/Pods-stitching/Pods-stitching.release.xcconfig"; sourceTree = "<group>"; };
 		A320FEDC1248AA74E5614B07 /* Pods_stitching.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stitching.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,11 +149,23 @@
 				52E2755C2849B7180013DEBF /* stitchingApp.swift */,
 				52E2755E2849B7180013DEBF /* ContentView.swift */,
 				52E275602849B71A0013DEBF /* Assets.xcassets */,
+				52F91991284EFC580030EFAB /* 8.jpg */,
+				52F91994284EFC590030EFAB /* 7.jpg */,
+				52F91999284EFC590030EFAB /* 6.jpg */,
+				52F9198F284EFC580030EFAB /* 5.jpg */,
+				52F9199C284EFC590030EFAB /* 4.jpg */,
+				52F91993284EFC590030EFAB /* 3.jpg */,
+				52F91992284EFC590030EFAB /* 2.jpg */,
+				52F91995284EFC590030EFAB /* 1.jpg */,
 				52E275622849B71A0013DEBF /* Preview Content */,
 				523B13ED284DA9010081A2DA /* OpenCVWrapper.h */,
 				523B13EE284DA9830081A2DA /* OpenCVWrapper.mm */,
 				523B13F0284DAA510081A2DA /* stitching.h */,
 				523B13F1284DAA870081A2DA /* stitching.cpp */,
+				523B13F5284DEAD10081A2DA /* UIImageRotate.h */,
+				523B13F6284DEAE50081A2DA /* UIImageRotate.m */,
+				523B13F9284DFD6D0081A2DA /* UIImageOpenCV.h */,
+				523B13FA284DFDB60081A2DA /* UIImageOpenCV.mm */,
 			);
 			path = stitching;
 			sourceTree = "<group>";
@@ -155,6 +189,7 @@
 				52E275552849B7180013DEBF /* Sources */,
 				52E275562849B7180013DEBF /* Frameworks */,
 				52E275572849B7180013DEBF /* Resources */,
+				704108D7BD1578DBCA70A317 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,8 +239,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F919A4284EFC590030EFAB /* 7.jpg in Resources */,
+				52F919A3284EFC590030EFAB /* 3.jpg in Resources */,
+				52F919A5284EFC590030EFAB /* 1.jpg in Resources */,
+				52F919AC284EFC590030EFAB /* 4.jpg in Resources */,
 				52E275642849B71A0013DEBF /* Preview Assets.xcassets in Resources */,
+				52F9199F284EFC590030EFAB /* 5.jpg in Resources */,
+				52F919A2284EFC590030EFAB /* 2.jpg in Resources */,
 				52E275612849B71A0013DEBF /* Assets.xcassets in Resources */,
+				52F919A1284EFC590030EFAB /* 8.jpg in Resources */,
+				52F919A9284EFC590030EFAB /* 6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +277,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		704108D7BD1578DBCA70A317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stitching/Pods-stitching-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stitching/Pods-stitching-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stitching/Pods-stitching-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523B13FB284DFDB60081A2DA /* UIImageOpenCV.mm in Sources */,
 				52E275802849BE130013DEBF /* PhotoAssetCollection.swift in Sources */,
 				52E275762849BE130013DEBF /* PhotoAsset.swift in Sources */,
 				52E2757F2849BE130013DEBF /* ViewfinderView.swift in Sources */,
@@ -251,6 +312,7 @@
 				523B13EF284DA9830081A2DA /* OpenCVWrapper.mm in Sources */,
 				52E2755F2849B7180013DEBF /* ContentView.swift in Sources */,
 				52E275772849BE130013DEBF /* PhotoItemView.swift in Sources */,
+				523B13F7284DEAE50081A2DA /* UIImageRotate.m in Sources */,
 				52E2757D2849BE130013DEBF /* PhotoCollection.swift in Sources */,
 				52E2757B2849BE130013DEBF /* DataModel.swift in Sources */,
 				52E275792849BE130013DEBF /* PhotoLibrary.swift in Sources */,

@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 struct stitchingApp: App {
-    
+        
     init() {
         UINavigationBar.applyCustomAppearance()
     }

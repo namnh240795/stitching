@@ -7,10 +7,14 @@
 
 #ifndef stitching_h
 #define stitching_h
-//#include <opencv2/opencv.hpp>
+#ifdef __cplusplus
+#undef NO
+#undef YES
+#import <opencv2/opencv.hpp>
+#endif
 #include <string>
 
-//cv::Mat stitch (std::vector <cv::Mat> & images);
+cv::Mat stitch (std::vector <cv::Mat> & images);
 std::string sayHelloCpp();
 
 #endif /* stitching_h */
